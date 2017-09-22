@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <title>video demo</title>
+</head>
+<body>
+
+<!-- preload 的 metadata 模式并不太清楚这个似乎还是会加载很多东西 -->
+
+<p>controls 👇</p>
+
+<video width="720" height="480" controls>
+    <!-- video from http://www.sample-videos.com/ -->
+    <source src="http://qn.cdn.cliiip.com/video/2017-09-22/SampleVideo_720x480_1mb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<p>controls loop 👇</p>
+
+<video width="720" height="480" controls loop>
+    <!-- video from http://www.sample-videos.com/ -->
+    <source src="http://qn.cdn.cliiip.com/video/2017-09-22/SampleVideo_720x480_1mb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<p>autoplay 👇</p>
+
+<video width="720" height="480" autoplay>
+    <!-- video from http://www.sample-videos.com/ -->
+    <source src="http://qn.cdn.cliiip.com/video/2017-09-22/SampleVideo_720x480_1mb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<p>autoplay loop 👇</p>
+
+<video width="720" height="480" autoplay loop>
+    <!-- video from http://www.sample-videos.com/ -->
+    <source src="http://qn.cdn.cliiip.com/video/2017-09-22/SampleVideo_720x480_1mb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<p>controls preload none 👇</p>
+
+<video width="720" height="480" controls preload="none">
+    <!-- video from http://www.sample-videos.com/ -->
+    <source src="http://qn.cdn.cliiip.com/video/2017-09-22/SampleVideo_720x480_1mb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
+<p>controls preload metadata 👇</p>
+
+<video width="720" height="480" controls preload="metadata">
+    <!-- video from http://www.sample-videos.com/ -->
+    <source src="http://qn.cdn.cliiip.com/video/2017-09-22/SampleVideo_720x480_1mb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
+<p>controls preload none poster 👇</p>
+
+<video width="720" height="480" controls preload="none" poster="http://qn.cdn.cliiip.com/imgs/2017-09-22/poster.png">
+    <!-- video from http://www.sample-videos.com/ -->
+    <source src="http://qn.cdn.cliiip.com/video/2017-09-22/SampleVideo_720x480_1mb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<!-- muted -->
+
+</html>
+</body>
+</html>
