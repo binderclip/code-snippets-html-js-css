@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <title>js in attr</title>
+</head>
+
+<body>
+    <p id="demo-p"></p>
+    <img id="demo-img"></img>
+
+    <script>
+        // change text
+        document.getElementById('demo-p').innerHTML = "Hello JavaScript!";
+
+        // change style
+        document.getElementById("demo-p").style.fontSize = "25px";
+        document.getElementById("demo-p").style.color = "red";
+        document.getElementById("demo-p").style.backgroundColor = "yellow";
+
+        // change attr
+        document.getElementById("demo-img").src = "https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif";
+    </script>
+</body>
+
+</html>
