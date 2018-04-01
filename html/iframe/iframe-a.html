@@ -8,7 +8,14 @@
 
 <body>
     <h1>iframe a</h1>
-    <iframe src='iframe-b.html'></iframe>
+    <iframe src="iframe-b.html"></iframe>
+    <iframe src="iframe-b.html" style="border:none;"></iframe>
+    <iframe src="iframe-b.html" style="border:2px solid red;"></iframe>
+    <iframe src="" name="iframe_a"></iframe>
+    <p>
+        <a href="iframe-b.html" target="iframe_a">iframe b</a>
+        <a href="iframe-c.html" target="iframe_a">iframe c</a>
+    </p>
 </body>
 
 </html>
