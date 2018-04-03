@@ -10,3 +10,9 @@
     - [MarkSheet: a free HTML and CSS tutorial - Free tutorial to learn HTML and CSS](https://marksheet.io/)
     - [HTML Reference - A free guide to all HTML elements and attributes.](https://htmlreference.io/)
     - [CSS Reference - A free visual guide to CSS](https://cssreference.io/)
+- JavaScript Tutorials
+    - [The Modern Javascript Tutorial](https://javascript.info/)
+    - [Eloquent JavaScript](http://eloquentjavascript.net/)
+    - [getify/You-Dont-Know-JS: A book series on JavaScript. @YDKJS on twitter.](https://github.com/getify/You-Dont-Know-JS)
+    - [JavaScript - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
+    - [freeCodeCamp](https://www.freecodecamp.org/)
