@@ -1,7 +1,12 @@
-console.log("== l for in ==")
 var l = ["foo", "bar", "baz"]
-for (i in l) {
-    console.log(i)
+console.log("== l for i++ ==")
+for (var i = 0; i < l.length; i++) {
+    console.log("" + i + ": " + l[i])
+}
+
+console.log("== l for in ==")
+for (is in l) {
+    console.log(is + ", " + (is + 0)) // 'is' is string
 }
 console.log("== l forEach ==")
 l.forEach((s) => {
