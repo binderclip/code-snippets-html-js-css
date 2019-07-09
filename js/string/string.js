@@ -13,3 +13,7 @@ var s5 = "Hello, 世界！"
 console.log(s5.length)
 console.log(s5.substring(7))
 console.log(s5.substring(7, 8))
+
+console.log("== empty string ==")
+var s6 = ""
+console.log(s6 == "")
