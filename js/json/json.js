@@ -6,3 +6,6 @@ console.log({ "1": "aa" }["1"])
 console.log({ 1: "aa" }["1"])
 console.log({ 1: "aa" }[1])
 console.log({ 1: "aa" }[2])
+
+console.log("== json to string ==")
+console.log(JSON.stringify(obj))
