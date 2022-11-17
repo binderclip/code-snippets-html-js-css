@@ -29,6 +29,7 @@ console.log(ts2) // 1562338778067
 console.log("== time format ==")
 var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 console.log(now.toLocaleDateString("zh-CN", options))
+console.log(now.toLocaleString())
 
 // https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date
 // https://www.w3schools.com/js/js_dates.asp
